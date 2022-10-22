@@ -15,6 +15,7 @@
 
 Execute at the root
 ```
+npm install (Only need to be executed once)
 node app.js
 ```
 Open a browser and go to <http://localhost:8081> (default port)
