@@ -6,7 +6,6 @@
     <p>Produce by <a href="https://skyworldstudio.top">SWS</a></p>
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="build passing">
     <img src="https://img.shields.io/badge/version-v1.0.0-orange" alt="version v1.0.0">
-    <img src="https://img.shields.io/badge/lincense-MIT-blue" alt="lincense MIT">
 </div>
 
 ---
