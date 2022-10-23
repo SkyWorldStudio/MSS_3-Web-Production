@@ -5,7 +5,7 @@
     <p>新一代我的世界开服面板，内置丰富的管理界面，让你快速管理你的服务器。快速的下载服务端，添加模组、插件，修改服务器配置，查看玩家及聊天框信息等，一切只为了让开服更加便利！</p>
     <p>由 <a href="https://skyworldstudio.top">SWS</a> 倾心制作</p>
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="build passing">
-    <img src="https://img.shields.io/badge/version-v1.0.0-orange" alt="version v1.0.0">
+    <img src="https://img.shields.io/github/v/release/SkyWorldStudio/MSS_3-Web-Production?include_prereleases" alt="newest version">
 </div>
 
 ---
