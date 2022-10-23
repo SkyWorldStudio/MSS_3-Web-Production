@@ -5,7 +5,7 @@
     <p>The new generation of Minecraft server panel has a rich built-in management interface that allows you to quickly manage your server. Quickly download the server jars, add mods, plugins, modify server configuration, view player and chat box information, etc., all to make the server more convenient!</p>
     <p>Produce by <a href="https://skyworldstudio.top">SWS</a></p>
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="build passing">
-    <img src="(https://img.shields.io/github/v/release/SkyWorldStudio/MSS_3-Web-Production?include_prereleases)" alt="newest version">
+    <img src="https://img.shields.io/github/v/release/SkyWorldStudio/MSS_3-Web-Production?include_prereleases" alt="newest version">
 </div>
 
 ---
