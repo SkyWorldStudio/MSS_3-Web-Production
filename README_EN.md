@@ -30,9 +30,9 @@ Open a browser and go to <http://localhost:8081> (default port)
 ---
 
 ### Project structure
-- MSS_3-back-> panel rear
-- MSS_3-Front -> front of the panel
-- MSS_3-Daemon -> Panel process guard
+- MSS_3-back-> Back end of the panel
+- MSS_3-Front -> Front end of the panel
+- MSS_3-Daemon -> Process guards
 
 ---
 
