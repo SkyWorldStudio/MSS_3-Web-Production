@@ -37,7 +37,8 @@ node app.js
 ---
 
 ### 开发人员
-1. @xiaoyi311 项目主要程序员
-2. @HeimNad 项目负责人, 网站负责人, Bug测试者
-3. @xianyongjian080402 网站负责人, Bug测试者
-4. 派蒙 Bug测试者
+1. @xiaoyi311 项目程序员
+2. @Bdbmzwsc 程序最终打包
+3. @HeimNad 项目负责人, 网站负责人, Bug测试者
+4. @xianyongjian080402 网站负责人, Bug测试者
+5. @派蒙 Bug测试者

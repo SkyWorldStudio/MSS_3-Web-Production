@@ -37,7 +37,8 @@ Open a browser and go to <http://localhost:8081> (default port)
 ---
 
 ### Developer
-1. @xiaoyi311 The main programmer of the project
-2. @HeimNad Project leader, site manager, Bug tester
-3. @xianyongjian080402 Site manager, Bug tester
-4. 派蒙 Bug tester
+1. @xiaoyi311 The programmer of the project
+2. @Bdbmzwsc Program final packaging
+3. @HeimNad Project leader, site manager, Bug tester
+4. @xianyongjian080402 Site manager, Bug tester
+5. @Paimon Bug tester
