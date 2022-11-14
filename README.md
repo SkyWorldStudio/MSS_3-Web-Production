@@ -17,7 +17,7 @@
 npm install (只需要执行一次)
 node app.js
 ```
-打开浏览器, 转到 <http://localhost:8081> 即可(默认端口)
+打开浏览器, 转到 <http://localhost:2332> 即可(默认端口)
 
 ---
 
