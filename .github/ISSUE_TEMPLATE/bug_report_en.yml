@@ -10,7 +10,7 @@ body:
   id: Prefeedback
   attributes:
     label: Are you sure that the bug you found is unique
-    description: You can search past issue at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
+    description: You can search past issues at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
     options:
       - label: Confirm
         required: true
