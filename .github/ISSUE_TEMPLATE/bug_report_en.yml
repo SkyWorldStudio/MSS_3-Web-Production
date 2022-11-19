@@ -12,7 +12,7 @@ body:
     label: Are you sure that the bug you found is unique
     description: You can search past issue at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
     options:
-      - label: Yes
+      - label: Confirm
         required: true
 - type: dropdown
   id: OS_Name
