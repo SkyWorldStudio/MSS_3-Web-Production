@@ -1,0 +1,63 @@
+name: 🐛 | Bug Report
+description: 🎤 | Submit bugs in MSS 3 that you found
+title: "[漏洞]: "
+labels: ["漏洞"]
+body:
+- type: markdown
+  attributes:
+    value: "# 🎁 | You are welcome to fill in the MSS 3 bug feedback!"
+- type: checkboxes
+  id: Prefeedback
+  attributes:
+    label: Whether to confirm that the bug you reported is unique
+    description: You can search issues at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue).
+    options:
+      - label: Confirm
+        required: true
+- type: dropdown
+  id: OS_Name
+  attributes:
+    label: Operating system name
+    description: You build the operating system name of MSS 3
+    multiple: false
+    options:
+      - Windows
+      - Linux
+      - MacOS
+  validations:
+    required: true
+- type: input
+  id: MSS3_Verison
+  attributes:
+    label: Please write down the version of MSS 3 where you found the bug
+    placeholder: vx.x.x
+  validations:
+    required: true
+- type: input
+  id: BugInMSS3_Place
+  attributes:
+    label: Please briefly describe the problem you are experiencing
+    description: Please briefly describe where you found this bug in MSS 3
+  validations:
+    required: true
+- type: textarea
+  id: BugInMSS3_Retry
+  attributes:
+    label: Please briefly describe the bug triggering process
+    description: Please briefly repeat how this bug was triggered in MSS 3
+    placeholder: |
+      1. xxx
+      2. xxx
+      3. xxx
+  validations:
+    required: true
+- type: textarea
+  id: UploadLog
+  attributes:
+    label: Upload MSS 3 logs here
+    description: MSS 3 log files are stored in logs and can be copied to the text box or uploaded directly to the file
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: "### 🎉 | Thank you for your support of MSS 3!"

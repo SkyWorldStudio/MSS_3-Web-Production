@@ -1,0 +1,36 @@
+name: 📖 | 新功能 提交
+description: 📎 | 写下你对添加新功能的一些建议
+title: "[新功能]: "
+labels: ["新功能建议"]
+body:
+- type: markdown
+  attributes:
+    value: "# 🎁 | 欢迎你来填写MSS 3 Bug新功能建议!"
+- type: checkboxes
+  id: Prefeedback
+  attributes:
+    label: 是否确认你所提交的新功能是MSS 3中没有的, 且在issues中是独一无二的
+    description: 可以在[这里](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)进行搜索
+    options:
+      - label: 确认
+        required: true
+- type: input
+  id: FeatureRequest_Summary
+  attributes:
+    label: 请简述新功能
+    description: 请简要叙述你所希望添加在MSS 3中的新功能
+    placeholder: |
+      我希望在xxx界面中加入xxx功能...
+- type: textarea
+  id: FeatureRequest_Steps
+  attributes:
+    label: 请详述新功能
+    description: 请详细描述新功能的实现步骤
+    placeholder: |
+      1. 点击xxx, 打开xxx, 出现xxx
+      2. 出现的xx中显示xxx
+      3. ....
+- type: markdown
+  attributes:
+    value: "### 🎉 | 感谢你对MSS 3的支持!"
+  
