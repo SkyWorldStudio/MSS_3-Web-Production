@@ -19,7 +19,7 @@ body:
   attributes:
     label: Operating system
     description: The operating system you used for MSS 3
-    multiple: false
+    multiple: true
     options:
       - Windows
       - Linux
