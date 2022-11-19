@@ -1,25 +1,25 @@
 name: 🐛 | Bug 提交
-description: 🎤 | 提交你发现的MSS 3中的Bug
+description: 🎤 | 提交你在MSS 3中发现的Bug
 title: "[漏洞]: "
 labels: ["漏洞"]
 body:
 - type: markdown
   attributes:
-    value: "# 🎁 | 欢迎你来填写MSS 3 Bug反馈!"
+    value: "# 🎁 | 欢迎填写MSS 3 Bug反馈!"
 - type: checkboxes
   id: Prefeedback
   attributes:
-    label: 是否确认你所反馈的Bug是独一无二的
-    description: 可以在[这里](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)进行搜索
+    label: 是否确认你所反馈的Bug在issue中是独一无二的
+    description: 可以在[这里](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)搜索过去的issue
     options:
       - label: 确认
         required: true
 - type: dropdown
   id: OS_Name
   attributes:
-    label: 系统名称
-    description: 你搭建MSS 3的系统名称
-    multiple: false
+    label: 操作系统
+    description: 你搭建MSS 3的操作系统
+    multiple: true
     options:
       - Windows
       - Linux
@@ -29,22 +29,22 @@ body:
 - type: input
   id: MSS3_Verison
   attributes:
-    label: 请写下你发现Bug的MSS 3版本
+    label: 你发现Bug的MSS 3版本
     placeholder: vx.x.x
   validations:
     required: true
 - type: input
   id: BugInMSS3_Place
   attributes:
-    label: 请简述你遇到的问题
-    description: 请简要描述你在MSS 3中的什么地方发现了这个Bug
+    label: 简述你遇到的Bug
+    description: 请简要描述你在MSS 3中发现了一个什么Bug
   validations:
     required: true
 - type: textarea
   id: BugInMSS3_Retry
   attributes:
-    label: 请简述Bug触发流程
-    description: 请简要复述如何MSS 3中触发这个Bug
+    label: 简述Bug触发流程
+    description: 请简要复述如何在MSS 3中触发这一个Bug
     placeholder: |
       1. xxx
       2. xxx
@@ -54,7 +54,7 @@ body:
 - type: textarea
   id: UploadLog
   attributes:
-    label: 在此处上传MSS 3日志
+    label: 上传MSS 3日志
     description: MSS 3日志文件存储在\logs, 可以复制到文本框也可以直接上传文件
   validations:
     required: true

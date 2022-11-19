@@ -1,30 +1,30 @@
 name: 📖 | New feature Submit
-description: 📎 | Write down some suggestions for adding new features
+description: 📎 | Write down your suggestions for adding new features in MSS 3
 title: "[新功能]: "
 labels: ["新功能建议"]
 body:
 - type: markdown
   attributes:
-    value: "# 🎁 | You are welcome to fill in the MSS 3 Bug feature suggestions!"
+    value: "# 🎁 | You are welcome to fill in the MSS 3 new feature suggestions!"
 - type: checkboxes
   id: Prefeedback
   attributes:
-    label: Whether to confirm that the new feature you are submitting is not available in MSS 3 and is unique in issues
-    description: You can search at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
+    label: Are you sure that the bug you found is unique
+    description: You can search past issue at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
     options:
       - label: Confirm
         required: true
 - type: textarea
   id: FeatureRequest_Simple
   attributes:
-    label: Please briefly describe the new features
+    label: Briefly describe the new features
     description: Please briefly describe the new features you would like to add in MSS 3
     placeholder: |
       I want to add xxx functionality in the xxx interface...
 - type: textarea
   id: FeatureRequest_Steps
   attributes:
-    label: Please elaborate on the new features
+    label: Elaborate on the new features
     description: Please describe in detail the steps to implement the new feature
     placeholder: |
       1. Click xxx, open xxx, xxx appears

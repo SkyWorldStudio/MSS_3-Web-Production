@@ -9,16 +9,16 @@ body:
 - type: checkboxes
   id: Prefeedback
   attributes:
-    label: Whether to confirm that the bug you reported is unique
-    description: You can search issues at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue).
+    label: Are you sure that the bug you found is unique
+    description: You can search past issue at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
     options:
-      - label: Confirm
+      - label: Yes
         required: true
 - type: dropdown
   id: OS_Name
   attributes:
-    label: Operating system name
-    description: You build the operating system name of MSS 3
+    label: Operating system
+    description: The operating system you used for MSS 3
     multiple: false
     options:
       - Windows
@@ -29,21 +29,21 @@ body:
 - type: input
   id: MSS3_Verison
   attributes:
-    label: Please write down the version of MSS 3 where you found the bug
+    label: Write down the version of MSS 3 where you found the bug
     placeholder: vx.x.x
   validations:
     required: true
 - type: input
   id: BugInMSS3_Place
   attributes:
-    label: Please briefly describe the problem you are experiencing
+    label: Briefly describe the Bug you are experiencing
     description: Please briefly describe where you found this bug in MSS 3
   validations:
     required: true
 - type: textarea
   id: BugInMSS3_Retry
   attributes:
-    label: Please briefly describe the bug triggering process
+    label: Briefly describe the bug triggering process
     description: Please briefly repeat how this bug was triggered in MSS 3
     placeholder: |
       1. xxx
@@ -54,8 +54,8 @@ body:
 - type: textarea
   id: UploadLog
   attributes:
-    label: Upload MSS 3 logs here
-    description: MSS 3 log files are stored in logs and can be copied to the text box or uploaded directly to the file
+    label: Upload MSS 3 logs
+    description: MSS 3 log files are stored in \logs and can be copied to the text box or uploaded directly
   validations:
     required: true
 - type: markdown
