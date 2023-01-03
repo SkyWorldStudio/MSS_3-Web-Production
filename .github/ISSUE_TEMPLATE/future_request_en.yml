@@ -1,0 +1,36 @@
+name: 📖 | New feature Submit
+description: 📎 | Write down your suggestions for adding new features in MSS 3
+title: "[新功能]: "
+labels: ["新功能建议"]
+body:
+- type: markdown
+  attributes:
+    value: "# 🎁 | You are welcome to fill in the MSS 3 new feature suggestions!"
+- type: checkboxes
+  id: Prefeedback
+  attributes:
+    label: Are you sure that the bug you found is unique
+    description: You can search past issues at [here](https://github.com/SkyWorldStudio/MSS_3-Web-Production/issues?q=is%3Aissue)
+    options:
+      - label: Confirm
+        required: true
+- type: textarea
+  id: FeatureRequest_Simple
+  attributes:
+    label: Briefly describe the new features
+    description: Please briefly describe the new features you would like to add in MSS 3
+    placeholder: |
+      I want to add xxx functionality in the xxx interface...
+- type: textarea
+  id: FeatureRequest_Steps
+  attributes:
+    label: Elaborate on the new features
+    description: Please describe in detail the steps to implement the new feature
+    placeholder: |
+      1. Click xxx, open xxx, xxx appears
+      2. xxx is displayed in the xx that appears
+      3. ....
+- type: markdown
+  attributes:
+    value: "### 🎉 | Thank you for your support of MSS 3!"
+  
