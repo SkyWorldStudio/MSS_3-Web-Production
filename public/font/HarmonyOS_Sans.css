@@ -1,0 +1,12 @@
+/*
+MSS 3 鸿蒙字体引入
+By Xiaoyi311
+On 2022-11-22
+*/
+
+@font-face{
+    font-family: "HarmonyOS_Sans";
+    src: url("/font/HarmonyOS_Sans.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

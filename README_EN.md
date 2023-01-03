@@ -17,7 +17,7 @@ Execute at the root
 npm install (Only need to be executed once)
 node app.js
 ```
-Open a browser and go to <http://localhost:8081> (default port)
+Open a browser and go to <http://localhost:2332> (default port)
 
 ---
 
@@ -37,8 +37,8 @@ Open a browser and go to <http://localhost:8081> (default port)
 ---
 
 ### Developer
-1. @xiaoyi311 The programmer of the project
-2. @Bdbmzwsc Program final packaging
+1. @xiaoyi311 @Anschluss_zeit The programmer of the project
+2. @xiaoyi311 Program final packaging
 3. @HeimNad Project leader, site manager, Bug tester
 4. @xianyongjian080402 Site manager, Bug tester
 5. @Paimon Bug tester

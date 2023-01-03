@@ -1,15 +1,11 @@
 {
-  "name": "back",
-  "version": "1.1.1",
+  "name": "MSS 3",
+  "version": "1.2.0",
   "daemonVersion": "1.0.0",
   "description": "MSS3 By SkyWorldStudio",
   "repository": {
     "type": "git",
     "url": "https://github.com/SkyWorldStudio/MSS_3-Back"
-  },
-  "scripts": {
-    "start": "ts-node ./src/app.ts",
-    "build": "tsc && webpack --config webpack.config.js"
   },
   "author": "SkyWorldStudio",
   "dependencies": {
@@ -21,6 +17,7 @@
     "koa-static": "^5.0.0",
     "log4js": "^6.7.0",
     "md5": "^2.3.0",
+    "os": "^0.1.2",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
@@ -29,6 +26,7 @@
     "@types/koa-session": "^5.10.6",
     "@types/koa-static": "^4.0.2",
     "@types/md5": "^2.3.2",
+    "@types/os-utils": "^0.0.1",
     "@types/uuid": "^8.3.4",
     "eslint": "^8.25.0",
     "koa-body": "^5.0.0",
